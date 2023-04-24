@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sound Upload Form</title>
+    <script src="popup.js"></script>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #eee;
+        background-color: #444;
+      }
+      h1 {
+        color: #ddd;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: #eee;
+        font-weight: bold;
+      }
+      input[type="text"], select {
+        width: 100%;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #666;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        background-color: #555;
+        color: #eee;
+      }
+      input[type="file"] {
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #555;
+        border-radius: 4px;
+        border: none;
+        color: #eee;
+        font-weight: bold;
+      }
+      input[type="submit"] {
+        background-color: #333;
+        color: #eee;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      input[type="submit"]:hover {
+        background-color: #222;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Upload a Sound</h1>
+    <form>
+      <label for="sound-name">Sound Name:</label>
+      <input type="text" id="sound-name" name="sound-name" required>
+
+      <label for="sound-credit">Sound Credit:</label>
+      <input type="text" id="sound-credit" name="sound-credit">
+
+      <label for="sound-type">Sound Type:</label>
+      <select id="sound-type" name="sound-type" required>
+        <option value="">Please select one</option>
+        <option value="Sound">Sound</option>
+        <option value="Note">Note</option>
+        <option value="Percussion">Percussion</option>
+      </select>
+
+      <label for="sound-image">Sound Image:</label>
+      <input type="file" id="sound-image" name="sound-image" accept="image/*" required>
+
+      <label for="sound-audio">Sound Audio:</label>
+      <input type="file" id="sound-audio" name="sound-audio" accept="audio/*" required>
+
+      <br>
+      <input type="submit" value="Submit" id="sbut">
+    </form>
+  </body>
+</html>

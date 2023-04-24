@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "DON'T YOU LECTURE ME WITH YOUR THIRTY DOLLAR CUSTOM SOUNDS",
+  "version": "1.0",
+  "description": "Adds custom sounds to GDColon's thirtydollar.website.",
+  "icons": {
+    "160": "moai.png"
+  },
+  "action": {
+    "default_title": "DON'T YOU LECTURE ME WITH YOUR THIRTY DOLLAR CUSTOM SOUNDS",
+    "default_popup": "form.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["insertSound.js"]
+  }]
+}
