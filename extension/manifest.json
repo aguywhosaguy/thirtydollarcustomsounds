@@ -8,7 +8,7 @@
   },
   "action": {
     "default_title": "DON'T YOU LECTURE ME WITH YOUR THIRTY DOLLAR CUSTOM SOUNDS",
-    "default_popup": "../html/form.html"
+    "default_popup": "html/form.html"
   },
   "permissions": [
     "activeTab",
@@ -16,6 +16,6 @@
   ],
   "content_scripts": [{
     "matches": ["<all_urls>"],
-    "js": ["../scripts/insertSound.js"]
+    "js": ["scripts/insertSound.js"]
   }]
 }
