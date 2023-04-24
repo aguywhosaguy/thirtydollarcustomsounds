@@ -4,11 +4,11 @@
   "version": "1.0",
   "description": "Adds custom sounds to GDColon's thirtydollar.website.",
   "icons": {
-    "160": "moai.png"
+    "160": "assets/moai.png"
   },
   "action": {
     "default_title": "DON'T YOU LECTURE ME WITH YOUR THIRTY DOLLAR CUSTOM SOUNDS",
-    "default_popup": "form.html"
+    "default_popup": "../html/form.html"
   },
   "permissions": [
     "activeTab",
@@ -16,6 +16,6 @@
   ],
   "content_scripts": [{
     "matches": ["<all_urls>"],
-    "js": ["insertSound.js"]
+    "js": ["../scripts/insertSound.js"]
   }]
 }
