@@ -5,7 +5,7 @@
 A Chrome extension that allows you to add custom sounds to GDColon's [Thirty Dollar Website](https://thirtydollar.website/)
 
 ## Usage
- - Unzip the file (You can use a program like [7zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com))
+ - Unzip the latest release (You can use a program like [7zip](https://www.7-zip.org/) or [WinRAR](https://www.win-rar.com))
  - Enable developer mode in the Chrome extension menu and click "Load Unpacked" (image below)
 ![](https://i.imgur.com/PDRahkf.png)
  - Open the unzipped root file of the extension (image below)
