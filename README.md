@@ -1,4 +1,6 @@
+Note: This extension has been succeeded by my extension, [Thirty Dollar Extension](https://github.com/aguywhosaguy/thirtyDollarExtension). The new extension is now integrated into the website upon visiting, and introduces Firefox support.
 
+This extension is no longer supported.
 
 # DON'T YOU LECTURE ME WITH YOUR THIRTY DOLLAR CUSTOM SOUNDS
 ## About
